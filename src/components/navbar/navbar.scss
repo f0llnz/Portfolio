@@ -2,22 +2,21 @@
     height: 100px;
     
         .wrapper{
-            max-width: 1366px;
+            max-width: 85.375rem;
             margin: auto;
             display: flex;
             align-items: center;
             justify-content: space-between;
             height: 100%;
 
-            span{
-                font-weight: bold;
-                font-size: 2rem;
+            .Name{
+                width: 12.625rem;
                 cursor: pointer;
             }
 
             .socials{
                 display: flex;
-                gap: 1.25rem;
+                gap: 2.5rem;
 
                 img{
                     width: 2rem;

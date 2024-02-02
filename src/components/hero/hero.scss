@@ -1,0 +1,82 @@
+.hero{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow: hidden;
+    position: relative;
+
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+        z-index: 999;
+
+            .textContainer{
+                width: 57%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 40px;
+
+                h2{
+                    font-size: 2rem;
+                    color: rebeccapurple;
+                    letter-spacing: 0.6rem;
+                }
+
+                h1{
+                    font-size: 5.5rem;
+                }
+
+                .buttons{
+                    z-index: 1;
+                    button{
+                        padding: 1.4rem;
+                        border: 1px solid white;
+                        border-radius: 0.6rem;
+                        background-color: transparent;
+                        color: white;
+                        margin-right: 1.4rem;
+                        font-weight: 300;
+                        cursor: pointer;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+
+                    .Contact{
+                        background-color: white;
+                        color: #111132;
+                        font-weight: bold;
+                    }
+                }
+
+                img{
+                    width: 3rem;
+                }
+            }
+    }
+    
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        top: 9%;
+        right: 9%;
+
+        img{
+            max-width: 800px;
+        }
+    }
+
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -16%;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
+        z-index: 0;
+    }
+}
