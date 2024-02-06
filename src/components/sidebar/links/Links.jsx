@@ -29,10 +29,9 @@ const Links = () => {
 
   const items = [
     "Homepage",
-    "Services",
+    "About",
     "Portfolio",
     "Contact",
-    "Parallax"
   ]
 
   return (

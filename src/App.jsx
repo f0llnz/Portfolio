@@ -5,16 +5,18 @@ import Hero from './components/hero/Hero'
 import Parallax from './components/parallax/Parallax';
 import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact'
+import Cursor from './components/cursor/Cursor';
 
 const App = () => {
   return (
     <div className='App'>
-      {/* cursor component */}
+      <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
         </section>
-      <section id="Services">
+      <section id="About">
         <Parallax type="services" />
       </section>
       <section>
@@ -25,7 +27,7 @@ const App = () => {
       </section>
       <Portfolio />
       <section id="Contact">
-        {/* contact component */}
+        <Contact />
       </section>
     </div>
   )
